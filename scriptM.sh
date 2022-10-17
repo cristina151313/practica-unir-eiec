@@ -16,7 +16,7 @@ if [ "$param" -lt 3 ]; then
         echo "$1 overwrite to $2 successfully"
     fi
 else
-    echo "Only two input parameters are allowed"
+    echo "Only two input parameters are allowed, please check the payload."
 fi
 
 exit 0
